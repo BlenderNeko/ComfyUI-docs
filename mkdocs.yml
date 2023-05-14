@@ -1,0 +1,76 @@
+site_name: ComfyUI Community Manual
+
+nav:
+  - Getting Started: index.md
+  - ... | Interface/**/*.md
+  - ... | Core Nodes/**/*.md
+  - ... | Custom Nodes/**/*.md
+  - ... | Developing Custom Nodes/**/*.md
+  - ... | Contributing Documentation/**/*.md
+
+theme:
+  name: material
+
+  palette: 
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/eye
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/eye-outline
+        name: Switch to light mode
+
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+
+markdown_extensions:
+
+  #codeblocks
+  - pymdownx.highlight:
+      anchor_linenums: true
+      pygments_lang_class: true
+      line_spans: __span
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+
+  #callouts
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+  #definition lists
+  - def_list
+
+  #table of content
+  - toc:
+      permalink: true
+
+  - pymdownx.keys
+
+  - attr_list
+  - md_in_html
+
+copyright: This page is licensed under a CC-BY-SA 4.0 Int. License.
+
+plugins:
+  - awesome-pages:
+      collapse_single_pages: false
+  - tags
+  - search
+    
