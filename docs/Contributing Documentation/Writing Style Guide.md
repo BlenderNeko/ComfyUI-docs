@@ -42,3 +42,9 @@ To be avoided:
 - Avoid product placements, i.e. unnecessarily promoting specific models. Keep content neutral where possible.
 - Avoid technical explanations about the mathematical/algorithmic implementation of a feature if there is a simpler way to explain it.
 - Avoid repetition of large portions of text. Simply explain it once, and from then on refer to that explanation.
+
+# Screenshot Guidelines
+
+Individual nodes shall be captured using the [Workflow SVG script](https://github.com/pythongosssss/ComfyUI-Custom-Scripts/tree/main), and sliced to a width of 400 pixels. These nodes shall be of the default width and using the default dark mode theme.
+
+Images displaying example workflows shall clearly display the nodes in question and contain the workflow as part of their meta-data such that users can easily access the workflows. Workflows shall not be presented to users in the form of a json file, or as output images of a prompt.

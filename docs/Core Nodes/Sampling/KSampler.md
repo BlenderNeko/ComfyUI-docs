@@ -1,6 +1,6 @@
 # KSampler
 
-![KSampler node](media/KSampler.png){ align=right width=450 }
+![KSampler node](media/KSampler.svg){ align=right width=450 }
 
 The KSampler uses the provided model and positive and negative conditioning to generate a new version of the given latent. First the latent is noised up according to the given `seed` and `denoise` strength, erasing some of the latent image. then this noise is removed using the given `Model` and the `positive` and `negative` conditioning as guidance, "dreaming" up new details in places where the image was erased by noise.
 

@@ -2,4 +2,6 @@
 
 under construction
 
-<!--todo: explanation about available samplers, schedules and appropriate numbers of steps--!>
+<!---
+todo: explanation about available samplers, schedules and appropriate numbers of steps
+-->
