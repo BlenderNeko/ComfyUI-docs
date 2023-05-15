@@ -68,6 +68,12 @@ markdown_extensions:
 
 copyright: This page is licensed under a CC-BY-SA 4.0 Int. License.
 
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/BlenderNeko/ComfyUI-docs
+      name: source code
+
 plugins:
   - awesome-pages:
       collapse_single_pages: false

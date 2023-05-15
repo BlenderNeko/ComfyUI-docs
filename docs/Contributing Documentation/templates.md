@@ -10,7 +10,7 @@ Pages about nodes should always start with a brief explanation and image of the 
 ``` md
 # Node Name
 
-![KSampler node](media/KSampler.png){ align=right width=450 }
+![KSampler node](media/KSampler.svg){ align=right width=450 }
 
 Short description and explanation of the node
 
