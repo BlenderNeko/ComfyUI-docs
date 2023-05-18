@@ -1,6 +1,6 @@
 # Load Checkpoint
 
-![KSampler node](media/LoadCheckpoint.svg){ align=right width=450 }
+![Load Checkpoint node](media/LoadCheckpoint.svg){ align=right width=450 }
 
 The Load Checkpoint node can be used to load a diffusion model, diffusion models are used to denoise latents. This node will also provide the appropriate VAE and CLIP model.
 

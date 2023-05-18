@@ -1,6 +1,6 @@
 # Load LoRA
 
-![KSampler node](media/LoadLoRA.svg){ align=right width=450 }
+![Load LoRA node](media/LoadLoRA.svg){ align=right width=450 }
 
 The Load LoRA node can be used to load a LoRA. LoRAs are used to modify the diffusion and CLIP models, to alter the way in which latents are denoised. Typical use-cases include adding to the model the ability to generate in certain styles, or better generate certain subjects or actions. One can even chain multiple LoRAs together to further modify the model.
 

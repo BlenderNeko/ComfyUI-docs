@@ -1,6 +1,6 @@
 # Load Style Model
 
-![KSampler node](media/LoadStyleModel.svg){ align=right width=450 }
+![Load Style Model node](media/LoadStyleModel.svg){ align=right width=450 }
 
 The Load Style Model node can be used to load a Style model. Style models can be used to provide a diffusion model a visual hint as to what kind of style the denoised latent should be in.
 

@@ -1,6 +1,6 @@
 # Load CLIP
 
-![KSampler node](media/LoadCLIP.svg){ align=right width=450 }
+![Load CLIP node](media/LoadCLIP.svg){ align=right width=450 }
 
 The Load CLIP node can be used to load a specific CLIP model, CLIP models are used to encode text prompts that guide the diffusion process.
 
