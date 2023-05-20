@@ -1,6 +1,6 @@
 # Rebatch Latents
 
-![Rebatch Latents node](media/RebatchLatents.svg){ align=right width=450 }
+![Rebatch Latents node](../media/RebatchLatents.svg){ align=right width=450 }
 
 The Rebatch latents node can be used to split or combine batches of latent images. When this results in multiple batches the node will output a list of batches instead of a single batch. This is useful e.g. to split batches up when the batch size is too big for all of them to fit inside VRAM, as ComfyUI will execute nodes for every batch in the list, rather than all at once. It can also be used merge lists of batches back together into a single batch.
 

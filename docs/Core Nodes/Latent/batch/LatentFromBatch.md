@@ -1,6 +1,6 @@
 # Latent From Batch
 
-![Latent From Batch node](media/LatentFromBatch.svg){ align=right width=450 }
+![Latent From Batch node](../media/LatentFromBatch.svg){ align=right width=450 }
 
 The Latent From Batch node can be used to pick a slice from a batch of latents. This is useful when a specific latent image or images inside the batch need to be isolated in the workflow.
 

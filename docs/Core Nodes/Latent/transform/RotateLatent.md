@@ -1,6 +1,6 @@
 # Rotate Latent
 
-![Rotate Latent node](media/RotateLatent.svg){ align=right width=450 }
+![Rotate Latent node](../media/RotateLatent.svg){ align=right width=450 }
 
 The Rotate Latent node can be used to rotate latent images clockwise in increments of 90 degrees.
 

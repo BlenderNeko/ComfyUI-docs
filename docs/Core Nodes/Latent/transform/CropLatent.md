@@ -1,6 +1,6 @@
 # Crop Latent
 
-![Crop Latent node](media/CropLatent.svg){ align=right width=450 }
+![Crop Latent node](../media/CropLatent.svg){ align=right width=450 }
 
 The Crop latent node can be used to crop latents to a new shape.
 

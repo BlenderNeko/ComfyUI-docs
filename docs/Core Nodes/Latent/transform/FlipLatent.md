@@ -1,6 +1,6 @@
 # Flip Latent
 
-![Flip Latent node](media/FlipLatent.svg){ align=right width=450 }
+![Flip Latent node](../media/FlipLatent.svg){ align=right width=450 }
 
 The Flip latent node can be used to flip latents horizontally or vertically.
 

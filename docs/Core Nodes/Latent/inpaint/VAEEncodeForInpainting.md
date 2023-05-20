@@ -1,8 +1,11 @@
-# VAE Encode For Inpainting
+# VAE Encode (for Inpainting)
 
-![VAE Encode For Inpainting node](media/VAEEncodeForInpainting.svg){ align=right width=450 }
+![VAE Encode For Inpainting node](../media/VAEEncodeForInpainting.svg){ align=right width=450 }
 
 The VAE Encode For Inpainting node can be used to encode pixel space images into latent space images, using the provided VAE. It also takes a mask for inpainting, indicating to a sampler node which parts of the image should be denoised. The area of the mask can be increased using `grow_mask_by` to provide the inpainting process with some additional padding to work with.
+
+!!! info
+    This node is specifically meant to be used for diffusion models trained for inpainting and will make sure the pixels underneath the mask are set to gray (0.5,0.5,0.5) before encoding.
 
 ## inputs
 
