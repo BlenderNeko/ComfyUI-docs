@@ -40,6 +40,7 @@ theme:
     - content.code.copy
 
 markdown_extensions:
+  - tables
 
   #codeblocks
   - pymdownx.highlight:
