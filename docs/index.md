@@ -25,7 +25,7 @@ You can find a large variety of models on websites like [CivitAI](https://civita
 
 ## First Steps With Comfy
 
-At this stage, you should have ComfyUI up and running in a browser tab. The default flow that's loaded is a good starting place to get familiar with. To navigate the canvas, you can either drag the canvas around, or hold spacebar and move your mouse. You can zoom by scrolling. 
+At this stage, you should have ComfyUI up and running in a browser tab. The default flow that's loaded is a good starting place to get familiar with. To navigate the canvas, you can either drag the canvas around, or hold ++space++ and move your mouse. You can zoom by scrolling. 
 
 !!! tip "Accidents happen"
 
@@ -39,7 +39,7 @@ Before we run our default flow, let's make a small modification to preview our t
 
 This modification will preview your results without immediately saving them to disk. Don't worry, if really like a particular result you can still right-click the image and choose `Save Image` (this will also save the entire flow details, including weight, seeds and more, inside of the PNG image)!
 
-Run your first gen by clicking `Queue Prompt` in the menu, or hitting `Cmd / Ctrl + Enter` on your keyboard, and that's it!
+Run your first gen by clicking `Queue Prompt` in the menu, or hitting ++command++ or ++control+enter++ on your keyboard, and that's it!
 
 ## Loading Other Flows
 
@@ -52,4 +52,4 @@ To make sharing easier, many Stable Diffusion interfaces, including ComfyUI, sto
 ## Next Steps
 This page should have given you a good intial overview of how to get started with Comfy. Thanks to the node-based interface, you can build workflows consisting of dozens of nodes, all doing different things, allowing for some really neat image generation pipelines. 
 
-It's also likely that you now have a lot of questions of what just happened, what each node does, and "how do I do X thing?"-type questions. These should hopefully be answered in the rest of these docs.
+It's also likely that you now have a lot of questions of what just happened, what each node does, and _"how do I do X thing"_-type questions. These should hopefully be answered in the rest of these docs.
