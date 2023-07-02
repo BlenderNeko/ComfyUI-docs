@@ -9,6 +9,8 @@ This is the community-maintained repository of documentation related to [ComfyUI
 
 The aim of this page is to get you up and running with ComfyUI, running your first gen, and providing some suggestions for the next steps to explore.
 
+Looking for support? Check out the [ComfyUI Matrix space](https://app.element.io/#/room/%23comfyui_space%3Amatrix.org)!
+
 ## Installation
 
 We won't be covering the installation of ComfyUI in detail, as the project is under active development, which tends to change the installation instructions. Instead, refer to [the README.md on GitHub](https://github.com/comfyanonymous/ComfyUI) and find the sections that are relevant to your install (Linux, macOS or Windows).
