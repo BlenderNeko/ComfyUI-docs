@@ -43,11 +43,11 @@ Run your first gen by clicking `Queue Prompt` in the menu, or hitting ++command+
 
 ## Loading Other Flows
 
-To make sharing easier, many Stable Diffusion interfaces, including ComfyUI, store the details of the generation flow inside of the generated PNG. Many of the workflow guides you will find related to ComfyUI will also have this metadata included. To load the associated flow of a generated image, simply load the image via the `Load` button in the menu, which will automatically parse the details.
+To make sharing easier, many Stable Diffusion interfaces, including ComfyUI, store the details of the generation flow inside the generated PNG. Many of the workflow guides you will find related to ComfyUI will also have this metadata included. To load the associated flow of a generated image, simply load the image via the `Load` button in the menu, or drag and drop it into the ComfyUI window. This will automatically parse the details and load all the relevant nodes, including their settings.
 
 !!! failure "No flow is displayed"
 
-    If you load an image but no flow is displayed, it likely means that the metadata was stripped from the file. If you know the original source of the image, try asking the author to re-upload it on a site like Catbox.
+    If you load an image but no flow is displayed, it likely means that the metadata was stripped from the file. If you know the original source of the image, try asking the author to re-upload it on a site that does not strip metadata.
 
 ## Next Steps
 This page should have given you a good intial overview of how to get started with Comfy. Thanks to the node-based interface, you can build workflows consisting of dozens of nodes, all doing different things, allowing for some really neat image generation pipelines. 
