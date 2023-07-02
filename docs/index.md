@@ -31,25 +31,25 @@ At this stage, you should have ComfyUI up and running in a browser tab. The defa
 
     If you mess something up, just hit `Load Default` in the menu to reset it to the inital state.
 
-Before we run our default flow, let's make a small modification to preview our testing gens without saving them:
+Before we run our default flow, let's make a small modification to preview our testing our generated images without saving them:
 
 1. Right-click on the `Save Image` node, then select `Remove`
 1. Double-click on an empty part of the canvas, type in `preview`, then click on the `PreviewImage` option
 1. Locate the `IMAGE` output of the `VAE Decode` node and connect it to the `images` input of the `Preview Image` node you just added
 
-This modification will preview your gens without immediately saving them to disk. Don't worry, if really like a gen you can still right-click the image and choose `Save Image` (this will also save the entire flow details, including weight, seeds and more, inside of the PNG image)!
+This modification will preview your results without immediately saving them to disk. Don't worry, if really like a particular result you can still right-click the image and choose `Save Image` (this will also save the entire flow details, including weight, seeds and more, inside of the PNG image)!
 
 Run your first gen by clicking `Queue Prompt` in the menu, or hitting `Cmd / Ctrl + Enter` on your keyboard, and that's it!
 
 ## Loading Other Flows
 
-To make sharing easier, many Stable Diffusion interfaces, including ComfyUI, store the details of the generation flow inside of the generated PNG. Many of the workflow guides you will find related to ComfyUI will also have this metadata included. To load the associated flow of a gen, simply load the image via the `Load` button in the menu, which will automatically parse the details.
+To make sharing easier, many Stable Diffusion interfaces, including ComfyUI, store the details of the generation flow inside of the generated PNG. Many of the workflow guides you will find related to ComfyUI will also have this metadata included. To load the associated flow of a generated image, simply load the image via the `Load` button in the menu, which will automatically parse the details.
 
 !!! failure "No flow is displayed"
 
-    If you load an image but no flow is displayed, it likely means that the metadata was stripped from the file. If you know the original source of the gen, try asking the author to re-upload it on a site like Catbox.
+    If you load an image but no flow is displayed, it likely means that the metadata was stripped from the file. If you know the original source of the image, try asking the author to re-upload it on a site like Catbox.
 
 ## Next Steps
-This page should have given you a good intial overview of how to get started with Comfy. Thanks to the node-based interface, you can build workflows consisting of dozens of nodes, all doing different things, allowing for some really neat genning pipelines. 
+This page should have given you a good intial overview of how to get started with Comfy. Thanks to the node-based interface, you can build workflows consisting of dozens of nodes, all doing different things, allowing for some really neat image generation pipelines. 
 
 It's also likely that you now have a lot of questions of what just happened, what each node does, and "how do I do X thing?"-type questions. These should hopefully be answered in the rest of these docs.
