@@ -33,6 +33,11 @@ At this stage, you should have ComfyUI up and running in a browser tab. The defa
 
     If you mess something up, just hit `Load Default` in the menu to reset it to the inital state.
 
+<figure markdown>
+  ![ComfyUI Default Workflow](./media/default_workflow.svg){ width="650" }
+  <figcaption>The default startup workflow of ComfyUI (open image in a new tab for better viewing)</figcaption>
+</figure>
+
 Before we run our default flow, let's make a small modification to preview our testing our generated images without saving them:
 
 1. Right-click on the `Save Image` node, then select `Remove`
