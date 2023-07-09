@@ -11,7 +11,7 @@ The aim of this page is to get you up and running with ComfyUI, running your fir
 
 ## Installation
 
-We won't be covering the installation of ComfyUI in detail, as the project is under active development, which tends to change the installation instructions. Instead, refer to the [README](https://github.com/comfyanonymous/ComfyUI) on GitHub and find the sections that are relevant to your install (Linux, macOS or Windows).
+We won't be covering the installation of ComfyUI in detail, as the project is under active development, which tends to change the installation instructions. Instead, refer to the [README](https://github.com/comfyanonymous/ComfyUI#installing) on GitHub and find the sections that are relevant to your install (Linux, macOS or Windows).
 
 ### Downloading a Model
 
