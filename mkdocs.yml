@@ -74,6 +74,9 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/BlenderNeko/ComfyUI-docs
       name: source code
+    - icon: simple/element
+      link: https://app.element.io/#/room/%23comfyui_space%3Amatrix.org
+      name: official chat room
 
 plugins:
   - awesome-pages:
