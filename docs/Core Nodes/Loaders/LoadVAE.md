@@ -18,4 +18,8 @@ The Load VAE node can be used to load a specific VAE model, VAE models are used 
 
 ## example
 
-example usage text with workflow image
+At times you might wish to use a different VAE than the one that came loaded with the [Load Checkpoint](./LoadCheckpoint.md) node. In the example below we use a different VAE to encode an image to latent space, and decode the result of the Ksampler.
+
+<div style="overflow: hidden;">
+<img src="../../media/img2imgExample.png" style="transform: scale(1.1) translate(-2.5%, -5%);">
+</div>

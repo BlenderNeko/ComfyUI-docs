@@ -26,4 +26,10 @@ The Load Image node can be used to to load an image. Images can be uploaded by s
 
 ## example
 
-example usage text with workflow image
+In order to perform image to image generations you have to load the image with the load image node. In the example below an image is loaded using the load image node, and is then encoded to latent space with a [VAE encode](../Latent/VAEEncode.md) node, letting us perform image to image tasks.
+
+(TODO: provide different example using mask)
+
+<div style="overflow: hidden;">
+<img src="../../media/img2imgExample.png" style="transform: scale(1.4) translate(15%, 0%);">
+</div>

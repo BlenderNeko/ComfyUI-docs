@@ -23,4 +23,8 @@ The VAE Decode node can be used to decode latent space images back into pixel sp
 
 ## example
 
-example usage text with workflow image
+TODO: SD 1.5 to XL example
+
+<div style="overflow: hidden;">
+<img src="../../media/img2imgExample.png" style="transform: scale(1.4) translate(-10%, 20%);">
+</div>
