@@ -45,6 +45,6 @@ To be avoided:
 
 ## Screenshot Guidelines
 
-Individual nodes shall be captured using the [Workflow SVG script](https://github.com/pythongosssss/ComfyUI-Custom-Scripts/tree/main), and sliced to a width of 450 pixels. These nodes shall be of the default width and using the default dark mode theme.
+Individual nodes shall be captured using the [Workflow SVG script](https://github.com/pythongosssss/ComfyUI-Custom-Scripts/tree/main), keep in mind that they will be given a width of 450px on their page. These nodes shall be of the default width and using the default dark mode theme.
 
 Images displaying example workflows shall clearly display the nodes in question and contain the workflow as part of their meta-data such that users can easily access the workflows. Workflows shall not be presented to users in the form of a json file, or as output images of a prompt. To attach the workflow to these screenshots the file `copy_pnginfo.py` inside the util folder can be called using `copy_pnginfo.py screenshot.png image_with_metadata.png output_image.png`
