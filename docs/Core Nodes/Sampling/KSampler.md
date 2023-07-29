@@ -59,4 +59,8 @@ The KSampler uses the provided model and positive and negative conditioning to g
 
 ## example
 
-Under construction
+The KSampler is the core of any workflow and can be used to perform text to image and image to image generation tasks. The example below shows how to use the KSampler in an image to image task, by connecting a model, a positive and negative embedding, and a latent image. Note that we use a denoise value of less than 1.0. This way parts of the original image are preserved when it is noised up, guiding the denoising process to similar looking images.
+
+<div style="overflow: hidden;">
+<img src="../../media/img2imgExample.png" style="transform: scale(1.2) translate(-5%, 15%);">
+</div>
